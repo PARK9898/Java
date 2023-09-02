@@ -3,7 +3,7 @@ package main.classStudy.ExtendMethodOverriding;
 public class Main {
 	public static void main(String[] args) {
 		Button entrButton = new Button("Enter");
-		ShutDownButton stdnButton = new ShutDownButton();
+		Button stdnButton = new ShutDownButton();
 		ToggleButton tglButton = new ToggleButton("CapsLock", false);
 
 		entrButton.func();
