@@ -10,6 +10,8 @@ public enum YalcoChickenMenu {
 	PP("땡초치킨", 13000, 2),
 	XX("폭렬치킨", 13000, 3);
 	// 얄코치킨 메뉴에서 사용될 필드들
+	// 치킨메뉴 하나당 필드를 가지고 있음
+	// 메뉴판 하나랑 진짜 시킬 메뉴가 뭔지 고르는거라고 생각하자
 	private String name;
 	private int price;
 	private int spicyLevel;
