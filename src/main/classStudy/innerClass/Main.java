@@ -17,7 +17,8 @@ public class Main {
 		//  ⚠️  아래와 같은 사용은 불가
 		//  Outer.InnerInstMember innerInstMember = new outer.InnerInstMember();
 
-		//  💡 인스턴스 내부 클래스는 이렇게 얻을 수 있음
+		//  💡 인스턴스 내부 클래스는 이렇게 얻을 수 있음\
+		// get 메소드를 통해 직접 반환해줘야한다 new 로 생성 불가
 		Outer.InnerInstMember innerInstMember = outer.getInnerInstMember();
 		innerInstMember.func();
 
