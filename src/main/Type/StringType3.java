@@ -12,7 +12,7 @@ public class StringType3 {
 		String str_d2 = str_d1 + iNtNum + fltNum + bool + character;
 
 		System.out.println(str_d2);
-
+		//int -> string valueOf()
 		String str1 = String.valueOf(true); // 여기 들어있는 값 자체를 문자열로 바꿔서 넣어준다
 		String str2 = String.valueOf(false);
 		String str3 = String.valueOf(123);
