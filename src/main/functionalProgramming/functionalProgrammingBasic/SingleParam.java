@@ -1,4 +1,4 @@
-package main.classStudy.functionalProgramming;
+package main.functionalProgramming.functionalProgrammingBasic;
 
 
 @FunctionalInterface

@@ -1,4 +1,4 @@
-package main.classStudy.functionalProgramming;
+package main.functionalProgramming.functionalProgrammingBasic;
 
 
 // - 조건 : 추상 메소드가 **하나(만)** 있어야 함
