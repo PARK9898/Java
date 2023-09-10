@@ -52,7 +52,7 @@ public class Ex03 {
 
 		var peopleHMapByHeight = people.stream()
 			.collect(Collectors.groupingBy(
-				p -> ((int) p.getHeight() / 10) * 10) // 180대인 사람끼리 170대 사람끼리 그런식으로 groupby된다
+				p -> ((int) p.getHeight() / 10) * 10) // 180대인 사람끼리 170대 사람끼리 그런식으로
 			);
 		var over180s = peopleHMapByHeight.get(180);
 	}
