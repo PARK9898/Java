@@ -32,7 +32,9 @@ public class Main {
 
 		//  💡 Knight과 그 자식 클래스만 받을 수 있음
 		//  기사 계급 이상을 태우는 말 이상만 대입할 받을 수 있는 변수
-		Horse<? extends Knight> knightHorse; // Knight이하로는 다 대입이 가능해진다 객체 자체를 넣는 행위이
+
+		//Horse<Unit> wrongHorse1 = new Horse<Knight>(); 원래 들어갈거 같지만 못들어간다 이 때 Hores<? extends Unit> horse = new Horse<Knight>() 하면 가능하다
+		Horse<? extends Knight> knightHorse; // Knight를 상속 받은 제네릭 객체는 넣을 수 있다 !!!
 		//knightHorse = new Horse<Unit>(); // ⚠️ 불가
 		knightHorse = new Horse<Knight>(); // 지정이 안되어있기 때문에 탈 수 있음
 		knightHorse = new Horse<MagicKnight>();
